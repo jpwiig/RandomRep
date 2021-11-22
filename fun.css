@@ -10,6 +10,11 @@
     50%{width: 35%;}
     100%{width: 40%;}
 }
+
+@keyframes roter{
+	from {transform: rotate(0);}
+	to {transform: rotate(360);}
+}
 *{
     background-color:#5966D9;
     text-align: center;
@@ -64,7 +69,11 @@ button{
 	
     
 }
-
+.h1-animation:active{
+	animation-name: roter;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
 .bilde-1:active{
     animation-name: zoom;
     animation-duration: 10s;

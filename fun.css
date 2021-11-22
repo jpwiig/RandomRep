@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "Monsterrat";
-    src: url(/font/Montserrat/Montserrat-Medium.ttf), sans;
+    font-family: "Montserrat";
+    src: url(/font/Montserrat/Montserrat-Medium.ttf), sans serif;
 }
 
 *{
@@ -31,6 +31,7 @@ button{
 }
 .bilde-2 {
     margin: 5px;
+
 }
 .bilde-3 {
     margin: 5px;
@@ -45,7 +46,8 @@ button{
     margin: 5px;
 }
 
-img:active {
+.bilde-1:active{
     width: 40%;
     height: auto;
+    
 }

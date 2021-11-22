@@ -59,3 +59,38 @@ button{
     height: auto;
     
 }
+.bilde-2:active{
+    animation-name: zoom;
+    animation-duration: 10s;
+    width: 40%;
+    height: auto;
+    
+}
+.bilde-3:active{
+    animation-name: zoom;
+    animation-duration: 10s;
+    width: 40%;
+    height: auto;
+    
+}
+.bilde-4:active{
+    animation-name: zoom;
+    animation-duration: 10s;
+    width: 40%;
+    height: auto;
+    
+}
+.bilde-5:active{
+    animation-name: zoom;
+    animation-duration: 10s;
+    width: 40%;
+    height: auto;
+    
+}
+.bilde-6:active{
+    animation-name: zoom;
+    animation-duration: 10s;
+    width: 40%;
+    height: auto;
+    
+}

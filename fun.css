@@ -29,26 +29,33 @@ button{
     flex-wrap: wrap;
     padding: 10px 5px;
     justify-content: space-evenly;
+	
 }
 
 .bilde-1 {
     margin: 5px;
+	
 }
 .bilde-2 {
     margin: 5px;
+	
 
 }
 .bilde-3 {
     margin: 5px;
+	
 }
 .bilde-4 {
     margin: 5px;
+	
 }
 .bilde-5 {
     margin: 5px;
+	
 }
 .bilde-6 {
     margin: 5px;
+	
     
 }
 

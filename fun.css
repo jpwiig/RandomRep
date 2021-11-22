@@ -1,6 +1,8 @@
 @font-face {
     font-family: "Montserrat";
     src: url(/font/Montserrat/Montserrat-Medium.ttf), sans serif;
+
+	
 }
 @keyframes zoom{
     0%{width: 25%;}
@@ -11,7 +13,11 @@
 *{
     background-color:#5966D9;
     text-align: center;
+	color: white;
 
+}
+.knapp{
+	color:black;
 }
 
 img {

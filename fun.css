@@ -5,10 +5,10 @@
 	
 }
 @keyframes zoom{
-    0%{width: 30%;}
-    25%{width: 40%;}
-    50%{width: 50%;}
-    100%{width: 60%;}
+    0%{width: 24rem;}
+    25%{width: 28rem;}
+    50%{width: 32rem;}
+    100%{width: 36rem;}
 }
 
 *{
@@ -76,31 +76,40 @@ h1:active{
 .bilde-1:active{
     animation-name: zoom;
     animation-duration: 10s;
-    
+	width: 36rem;
+    height: auto;
 }
 .bilde-2:active{
     animation-name: zoom;
     animation-duration: 10s;
+	width: 36rem;
+	height: auto;
    
 }
 .bilde-3:active{
     animation-name: zoom;
     animation-duration: 10s;
-    
+    width: 36rem;
+	height: auto;
 }
 .bilde-4:active{
     animation-name: zoom;
     animation-duration: 10s;
+	width: 36rem;
+	height: auto;
     
 }
 .bilde-5:active{
     animation-name: zoom;
     animation-duration: 10s;
-  
+  	width: 36rem;
+	height: auto;
 }
 .bilde-6:active{
     animation-name: zoom;
     animation-duration: 10s;
+	width: 36rem;
+	height: auto;
        
 }
 figcaption{

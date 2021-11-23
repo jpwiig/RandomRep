@@ -1,7 +1,6 @@
 @font-face {
     font-family: "Montserrat";
-    src: url(/font/Montserrat/Montserrat-Medium.ttf), sans serif;
-
+    src: url("./font/Montserrat/Montserrat-SemiBold.ttf"), sans serif;
 	
 }
 @keyframes zoom{
@@ -9,6 +8,10 @@
     25%{width: 28rem;}
     50%{width: 32rem;}
     100%{width: 36rem;}
+}
+
+@keyframes gradient{
+	
 }
 
 *{

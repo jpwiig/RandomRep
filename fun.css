@@ -15,9 +15,9 @@
 }
 
 *{
-    background-color:#5966D9;
+    background-color: white;
     text-align: center;
-	color: white;
+	color: black;
 
 }
 .knapp{
@@ -121,6 +121,6 @@ figcaption{
 }
 
 figcaption:hover{
-	color:white;
+	color:black;
 	
 }

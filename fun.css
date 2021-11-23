@@ -5,17 +5,12 @@
 	
 }
 @keyframes zoom{
-    0%{width: 75%;}
-    25%{width: 80%;}
-    50%{width: 85%;}
-    100%{width: 90%;}
+    0%{width: 30%;}
+    25%{width: 40%;}
+    50%{width: 50%;}
+    100%{width: 60%;}
 }
 
-@keyframes flip{
-	from{transform: matrix(0,0,0,0)}
-	to{transform:matrix(-1,0,0,-1)}
-	
-}
 *{
     background-color:#5966D9;
     text-align: center;
@@ -27,7 +22,7 @@
 }
 
 img {
-    width: 70%;
+    width: 24rem;
     height: auto;
     
 }
@@ -36,88 +31,84 @@ button{
     justify-content: center;
    background-color: white;
 }
+
+
 .galleri{
-    display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr;
+    display:flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
     padding: 5px 5px;
 	
 }
 
 .bilde-1 {
     margin: 5px;
-	grid-row-start: 1fr;
-
-	
 	
 }
 .bilde-2 {
     margin: 5px;
-	
+
 
 }
 .bilde-3 {
     margin: 5px;
-	
+
 }
 .bilde-4 {
     margin: 5px;
-	
+
 }
 .bilde-5 {
     margin: 5px;
-	
+
 }
 .bilde-6 {
     margin: 5px;
-	
+
     
 }
 h1:active{
 	animation-name:flip;
 	animation-duration: 10s;
 	animation-iteration-count: infinite;
-	font-si: 16px;
+	font-size: 16px;
 }
 .bilde-1:active{
     animation-name: zoom;
     animation-duration: 10s;
-    width: 75%;
-    height: auto;
     
 }
 .bilde-2:active{
     animation-name: zoom;
     animation-duration: 10s;
-    width: 75%;
-    height: auto;
-    
+   
 }
 .bilde-3:active{
     animation-name: zoom;
     animation-duration: 10s;
-    width: 75%;
-    height: auto;
     
 }
 .bilde-4:active{
     animation-name: zoom;
     animation-duration: 10s;
-    width: 75%;
-    height: auto;
     
 }
 .bilde-5:active{
     animation-name: zoom;
     animation-duration: 10s;
-    width: 75%;
-    height: auto;
-    
+  
 }
 .bilde-6:active{
     animation-name: zoom;
     animation-duration: 10s;
-    width: 75%;
-    height: auto;
-    
+       
+}
+figcaption{
+	color: transparent;
+	
+}
+
+figcaption:hover{
+	color:white;
+	
 }

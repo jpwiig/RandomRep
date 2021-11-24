@@ -271,5 +271,52 @@ figcaption{
 
 figcaption:hover{
 	color:black;
+ 	}
 	
- 				}
+	@media screen and (min-width: 960px) {
+    /* NAVBAR */
+    .nav-toggle {
+        display: none;
+    }
+
+    .nav-menu {
+        flex-direction: row;
+    }
+
+    .nav-menu li {
+        display: block;
+    }
+   
+    /* CONTENT */
+    .container {
+        margin: 0 auto;
+        width: 960px;
+    }
+
+    section {
+        align-items: center;
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: 1fr 1fr;
+        padding: 0;
+    }
+    
+    section > .text-content {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    section > .image-content {
+        grid-column: 2;
+        grid-row: 1;
+    }
+    
+    section:nth-child(odd) > .text-content {
+        grid-column: 2;
+        grid-row: 1;
+    }
+    
+    section:nth-child(odd) > .image-content {
+        grid-column: 1;
+        grid-row: 1;
+    }

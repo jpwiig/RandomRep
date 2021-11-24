@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Montserrat";
-    src: url("./font/Montserrat/Montserrat-SemiBold.ttf"), sans serif;
+    src: url("./font/Montserrat/Montserrat-Bold.ttf"), serif;
 	
 }
 @keyframes zoom{
@@ -11,7 +11,11 @@
 }
 
 @keyframes gradient{
-	
+   0%{color:black;}
+   25%{color:red;}
+   50%{color:green;}
+   75%{color: yellow;}
+   100%{color: black;}
 }
 
 *{
@@ -20,9 +24,7 @@
 	color: black;
 
 }
-.knapp{
-	color:black;
-}
+
 
 img {
     width: 24rem;
@@ -30,12 +32,6 @@ img {
     
 }
     
-button{
-    justify-content: center;
-   background-color: white;
-}
-
-
 .galleri{
     display:flex;
 	flex-wrap: wrap;
@@ -71,10 +67,9 @@ button{
     
 }
 h1:active{
-	animation-name:flip;
+	animation-name:gradient;
 	animation-duration: 10s;
-	animation-iteration-count: infinite;
-	font-size: 16px;
+	
 }
 .bilde-1:active{
     animation-name: zoom;
@@ -87,7 +82,7 @@ h1:active{
     animation-duration: 10s;
 	width: 36rem;
 	height: auto;
-   
+
 }
 .bilde-3:active{
     animation-name: zoom;

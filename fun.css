@@ -12,9 +12,9 @@
 
 @keyframes gradient{
    0%{color:black;}
-   25%{color:red;}
-   50%{color:green;}
-   75%{color: yellow;}
+   25%{color:#4A4D02;}
+   50%{color:#313302;}
+   75%{color:#313302;}
    100%{color: black;}
 }
 
@@ -64,7 +64,6 @@ img {
 .bilde-6 {
     margin: 5px;
 
-    
 }
 h1:active{
 	animation-name:gradient;
@@ -111,8 +110,7 @@ h1:active{
        
 }
 figcaption{
-	color: transparent;
-	
+	color: transparent;	
 }
 
 figcaption:hover{

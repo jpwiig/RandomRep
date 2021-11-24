@@ -306,7 +306,7 @@ figcaption:hover{
         grid-row: 1;
     }
 
-    section > .image-content {
+    section > .bilder {
         grid-column: 2;
         grid-row: 1;
     }
